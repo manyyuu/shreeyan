@@ -294,3 +294,195 @@
  .v4-feature-section>h2,.v4-story-copy h2{font-size:36px}
  .v4-story-steps{grid-template-columns:1fr}
 }
+
+
+/* ===== SHREEYAN short welcome page ===== */
+.welcome-page{background:#f8f8f4;color:#103c40;font-family:"DM Sans",Arial,sans-serif}
+.welcome-page .welcome-header{height:84px;padding:0 7vw;display:flex;align-items:center;justify-content:space-between;gap:24px;background:rgba(248,248,244,.92);border-bottom:1px solid #dce5e1;position:sticky;top:0;z-index:40;backdrop-filter:blur(16px)}
+.welcome-brand{display:flex;align-items:center;gap:12px;min-width:0}
+.welcome-brand img{width:45px;height:45px;object-fit:contain}
+.welcome-brand b{display:block;font:800 15px Manrope,sans-serif;letter-spacing:.13em;color:#103c40}
+.welcome-brand small{display:block;font-size:9px;letter-spacing:.13em;color:#6a8581;margin-top:2px}
+.welcome-header-link{font-size:12px;font-weight:700;color:#103c40;display:flex;gap:12px;align-items:center}
+.welcome-header-link span{display:grid;place-items:center;border:1px solid #ccdcd7;border-radius:50%;width:29px;height:29px;color:#0f8d90}
+.welcome-hero{position:relative;min-height:510px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:5vw;padding:70px 10vw 76px;background:#eff5f1;overflow:hidden}
+.welcome-hero-copy{position:relative;z-index:2;max-width:620px}
+.welcome-eyebrow,.welcome-kicker{font-size:9px;letter-spacing:.18em;font-weight:800;color:#0f8d90}
+.welcome-eyebrow{display:flex;align-items:center;gap:9px;margin-bottom:22px}
+.welcome-eyebrow span{height:7px;width:7px;border-radius:50%;background:#f7931e}
+.welcome-hero h1{font:600 clamp(44px,5.5vw,73px)/1.01 Manrope,sans-serif;letter-spacing:-.065em;margin:0 0 21px;color:#123d40}
+.welcome-hero h1 em,.welcome-section-heading h2 em{font-family:Georgia,serif;font-weight:400;color:#0f8d90}
+.welcome-hero-copy>p{font-size:15px;line-height:1.85;color:#607976;max-width:490px;margin-bottom:26px}
+.welcome-cta{display:inline-flex;align-items:center;gap:18px;padding:13px 17px;background:#0f7778;color:white;border-radius:999px;font-size:11px;font-weight:800}
+.welcome-cta span{font-size:17px}
+.welcome-art{height:355px;position:relative;display:grid;place-items:center}
+.welcome-art-ring{position:absolute;border:1px solid #a8c9c0;border-radius:50%}
+.ring-a{width:300px;height:300px}
+.ring-b{width:235px;height:235px;border-style:dashed;opacity:.8}
+.welcome-ribbon{position:absolute;width:115px;height:195px;border-radius:70% 30% 65% 35%;transform:rotate(-34deg);box-shadow:14px 18px 35px #0f77781a}
+.ribbon-a{background:linear-gradient(155deg,#1aa0e6,#0f7778);left:calc(50% - 75px);top:69px}
+.ribbon-b{background:linear-gradient(155deg,#52ad77,#08775e);left:calc(50% - 6px);top:80px;transform:rotate(34deg) scale(.92)}
+.welcome-art:after{content:"";position:absolute;width:17px;height:17px;border-radius:50%;background:#f7931e;top:54px;right:21%}
+.welcome-art-note{position:absolute;right:-3%;bottom:19px;background:#fff;border:1px solid #e0e8e3;border-radius:16px;padding:15px 19px;box-shadow:0 18px 44px #173d3d0d;min-width:154px}
+.welcome-art-note small{font-size:8px;letter-spacing:.2em;color:#0f8d90;font-weight:800}
+.welcome-art-note b{display:block;font:700 20px/1.25 Manrope;color:#123d40;margin-top:8px}
+.welcome-index{position:absolute;bottom:20px;left:10vw;right:10vw;display:flex;justify-content:space-between;gap:20px;border-top:1px solid #d8e4df;padding-top:14px;font-size:9px;letter-spacing:.13em;color:#66817d}
+.welcome-index span{font-size:8px}
+.welcome-clinics{padding:72px 10vw 88px;background:#fff}
+.welcome-section-heading{display:grid;grid-template-columns:1fr .7fr;align-items:end;gap:40px;margin-bottom:28px}
+.welcome-section-heading h2{font:600 clamp(32px,4vw,45px)/1.08 Manrope;letter-spacing:-.05em;margin:11px 0 0;color:#123d40}
+.welcome-section-heading>p{font-size:12px;line-height:1.8;color:#728480;max-width:360px;margin:0 0 3px}
+.welcome-clinic-grid{display:grid;grid-template-columns:1fr 1fr;gap:19px}
+.welcome-clinic-card{position:relative;display:grid;grid-template-columns:108px 1fr;gap:20px;border:1px solid #dce7e2;border-radius:22px;min-height:285px;padding:21px;background:#f8faf8;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease;overflow:hidden}
+.welcome-clinic-card:hover{transform:translateY(-4px);border-color:#a9c9c1;box-shadow:0 20px 45px #173d3d10}
+.health-option{background:#eef6f1}
+.dental-option{background:#faf5ef}
+.welcome-card-top{position:absolute;top:21px;left:22px;right:22px;display:flex;align-items:center;justify-content:space-between;color:#66817d;font-size:8px;font-weight:800;letter-spacing:.15em}
+.welcome-card-arrow{display:grid;place-items:center;width:27px;height:27px;border:1px solid #d3e0db;border-radius:50%;font-size:13px;color:#0f8d90}
+.welcome-symbol-wrap{grid-column:1;align-self:center;margin-top:28px;display:grid;place-items:center;width:104px;height:104px;background:#fff;border:1px solid #e1e9e4;border-radius:20px}
+.welcome-symbol-wrap img{width:76px;height:76px;object-fit:contain}
+.dental-symbol-wrap img{width:66px;height:66px}
+.welcome-card-content{align-self:center;padding-top:32px;min-width:0}
+.welcome-card-label{font-size:7px;letter-spacing:.11em;line-height:1.5;color:#718783;font-weight:800}
+.welcome-card-content h3{font:700 clamp(21px,2.3vw,28px)/1.12 Manrope;letter-spacing:-.05em;margin:11px 0;color:#123d40}
+.welcome-card-content h3 em{font-family:Georgia,serif;color:#0f8d90;font-weight:400}
+.dental-option .welcome-card-content h3 em{color:#bf5b46}
+.welcome-card-content p{font-size:11px;line-height:1.75;color:#667e79;margin:0 0 15px}
+.welcome-card-footer{border-top:1px solid #dbe5e0;padding-top:12px;display:flex;justify-content:space-between;gap:8px;font-size:10px;font-weight:800;color:#123d40}
+.welcome-card-footer span{font-size:15px;color:#0f8d90}
+.welcome-footer{padding:23px 7vw;display:flex;align-items:center;justify-content:space-between;gap:22px;background:#07383b;color:#d6e8e3}
+.welcome-footer .welcome-brand img{width:34px;height:34px}
+.welcome-footer .welcome-brand b{font-size:12px;color:#fff}
+.welcome-footer .welcome-brand small{font-size:7px;color:#8db4ac}
+.welcome-footer>span{font-size:10px;color:#a3beb7}
+.welcome-footer>a:last-child{font-size:10px;color:#d8ebe5}
+@media(max-width:900px){.welcome-hero{padding:58px 6vw 74px;gap:2vw}.welcome-art{transform:scale(.88)}.welcome-clinics{padding:60px 6vw 70px}.welcome-clinic-card{grid-template-columns:1fr;gap:12px}.welcome-symbol-wrap{width:70px;height:70px;margin-top:32px}.welcome-symbol-wrap img{width:53px;height:53px}.dental-symbol-wrap img{width:48px;height:48px}.welcome-card-content{padding-top:0}.welcome-card-content h3{font-size:25px}}
+@media(max-width:620px){.welcome-page .welcome-header{height:70px;padding:0 5vw}.welcome-brand img{width:38px;height:38px}.welcome-brand b{font-size:13px}.welcome-brand small{font-size:7px}.welcome-header-link{font-size:10px}.welcome-hero{grid-template-columns:1fr;padding:49px 6vw 65px;gap:0}.welcome-hero h1{font-size:clamp(43px,12vw,59px)}.welcome-hero-copy>p{font-size:13px}.welcome-art{height:275px;transform:none;margin-top:12px}.ring-a{width:240px;height:240px}.ring-b{width:190px;height:190px}.ribbon-a{top:45px;height:160px;width:92px;left:calc(50% - 60px)}.ribbon-b{top:52px;height:155px;width:90px;left:calc(50% - 5px)}.welcome-art-note{right:0;bottom:0}.welcome-index{left:6vw;right:6vw;bottom:14px}.welcome-index span{max-width:180px;text-align:right}.welcome-clinics{padding:46px 5vw 55px}.welcome-section-heading{grid-template-columns:1fr;gap:12px}.welcome-section-heading h2{font-size:35px}.welcome-clinic-grid{grid-template-columns:1fr;gap:13px}.welcome-clinic-card{grid-template-columns:82px 1fr;min-height:215px;padding:18px;gap:14px}.welcome-card-top{top:17px;left:18px;right:18px}.welcome-symbol-wrap{width:76px;height:76px;margin-top:30px}.welcome-symbol-wrap img{width:55px;height:55px}.dental-symbol-wrap img{width:49px;height:49px}.welcome-card-content{padding-top:25px}.welcome-card-content h3{font-size:24px}.welcome-card-label{font-size:7px}.welcome-card-content p{font-size:10px}.welcome-footer{padding:25px 6vw;flex-wrap:wrap}.welcome-footer>span{order:3;width:100%}}
+/* ===== SHREEYAN Health+ individual site ===== */
+.new-health{background:#f8f8f4;color:#163c3e}
+.new-health .health-header{height:78px;padding:0 7vw;display:flex;align-items:center;justify-content:space-between;gap:25px;background:rgba(248,248,244,.94);border-bottom:1px solid #e0e8e3;position:sticky;top:0;z-index:40;backdrop-filter:blur(16px)}
+.new-health .health-brand{display:flex;align-items:center;gap:11px;min-width:max-content}
+.new-health .health-brand img{width:43px;height:43px}
+.new-health .health-brand b{display:block;font:800 13px Manrope;letter-spacing:.14em}
+.new-health .health-brand small{display:block;font-size:9px;letter-spacing:.18em;color:#0f8d90;font-weight:800;margin-top:2px}
+.new-health .health-nav{display:flex;gap:22px;font-size:10px;font-weight:700;color:#637b76}
+.new-health .health-nav a:hover{color:#0f8d90}
+.new-health .health-header-cta{display:flex;align-items:center;gap:12px;background:#0f7778;color:white;border-radius:999px;padding:11px 15px;font-size:10px;font-weight:800;white-space:nowrap}
+.new-health .health-header-cta span{font-size:14px}
+.new-health .health-hero{min-height:590px;padding:66px 9vw 65px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:4vw;background:#edf5f1;position:relative;overflow:hidden}
+.new-health .health-hero-copy{position:relative;z-index:2;max-width:625px}
+.new-health .health-back{display:inline-block;font-size:10px;color:#68817b;margin-bottom:36px;font-weight:700}
+.new-health .health-eyebrow{display:flex;align-items:center;gap:9px;font-size:8px;letter-spacing:.17em;font-weight:800;color:#0f8d90;margin-bottom:21px}
+.new-health .health-eyebrow span{width:7px;height:7px;border-radius:50%;background:#f7931e}
+.new-health .health-hero h1{font:600 clamp(48px,5.5vw,72px)/1.01 Manrope;letter-spacing:-.065em;color:#123d40;margin:0 0 20px}
+.new-health .health-hero h1 em,.new-health .health-section h2 em,.new-health .health-dialogue h2 em,.new-health .health-locations-heading h2 em{font-family:Georgia,serif;font-weight:400;color:#0f8d90}
+.new-health .health-hero-copy>p{font-size:14px;line-height:1.85;color:#627a75;max-width:510px;margin:0}
+.new-health .health-hero-actions{display:flex;align-items:center;gap:22px;margin-top:29px;flex-wrap:wrap}
+.new-health .health-button{display:inline-flex;align-items:center;gap:13px;border-radius:999px;padding:13px 17px;font-size:10px;font-weight:800}
+.new-health .health-button.primary{background:#0f7778;color:white}
+.new-health .health-text-link{font-size:10px;font-weight:800;color:#163c3e}
+.new-health .health-hero-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:35px;padding-top:15px;border-top:1px solid #d6e3dc;font-size:9px;color:#68817b}
+.new-health .health-hero-meta span+span:before{content:"•";color:#f7931e;margin-right:9px}
+.new-health .health-hero-visual{height:425px;position:relative;display:grid;place-items:center;isolation:isolate}
+.new-health .health-visual-orbit{position:absolute;border:1px solid #c1d8cd;border-radius:50%}
+.new-health .orbit-one{width:355px;height:355px}
+.new-health .orbit-two{width:280px;height:280px;border-style:dashed;opacity:.7}
+.new-health .health-abstract-mark{width:220px;height:260px;position:relative;filter:drop-shadow(0 16px 18px #0a65641b)}
+.new-health .mark-flow{position:absolute;display:block;width:105px;height:215px;border-radius:75% 25% 72% 28%}
+.new-health .flow-one{left:16px;top:25px;background:linear-gradient(160deg,#1aa0e6,#0f8d90);transform:rotate(-34deg)}
+.new-health .flow-two{left:83px;top:22px;background:linear-gradient(160deg,#16a34a,#0b6f67);transform:rotate(29deg) scale(.94)}
+.new-health .flow-three{left:69px;top:61px;width:35px;height:125px;border-radius:50%;background:#edf5f1;transform:rotate(-38deg);box-shadow:0 0 0 1px #edf5f1}
+.new-health .mark-sun{position:absolute;right:15px;top:2px;width:18px;height:18px;border-radius:50%;background:#f7931e}
+.new-health .health-visual-caption{position:absolute;right:0;bottom:7px;width:210px;background:#fff;padding:17px 19px;border:1px solid #e0e9e4;border-radius:15px;box-shadow:0 18px 42px #193c3c0b}
+.new-health .health-visual-caption span,.new-health .health-visual-caption small{display:block;font-size:7px;letter-spacing:.15em;color:#0f8d90;font-weight:800}
+.new-health .health-visual-caption b{display:block;font:700 20px/1.2 Manrope;color:#153e3e;margin:9px 0 12px}
+.new-health .health-visual-caption small{color:#7b928b;font-size:6px}
+.new-health .health-visual-index{position:absolute;left:2px;bottom:20px;font-size:8px;letter-spacing:.16em;color:#77918a;writing-mode:vertical-rl;transform:rotate(180deg)}
+.new-health .health-doctor{display:grid;grid-template-columns:94px 1.1fr .9fr;align-items:center;gap:25px;padding:48px 9vw;background:#fff;border-bottom:1px solid #e3eae5}
+.new-health .health-doctor-mark{width:83px;height:83px;border-radius:22px;background:#edf5f1;display:grid;place-items:center}
+.new-health .health-doctor-mark img{width:62px;height:62px}
+.new-health .health-kicker{font-size:8px;letter-spacing:.17em;font-weight:800;color:#0f8d90}
+.new-health .health-doctor h2{font:600 clamp(27px,3vw,36px)/1.08 Manrope;letter-spacing:-.05em;color:#153e3e;margin:8px 0}
+.new-health .health-doctor h2 em{font-family:Georgia,serif;color:#0f8d90;font-weight:400}
+.new-health .health-doctor-copy>p{font-size:11px;color:#627a75;margin:5px 0}
+.new-health .health-doctor-copy .health-doctor-role{font-size:12px;color:#153e3e;font-weight:700}
+.new-health .health-registration{font-size:9px!important;color:#7f928b!important}
+.new-health .health-doctor-note{border-left:1px solid #dbe6e0;padding-left:25px}
+.new-health .health-doctor-note span{font-size:7px;letter-spacing:.14em;color:#6c8880;font-weight:800}
+.new-health .health-doctor-note p{font-size:11px;line-height:1.8;color:#5d7670;margin:9px 0 0}
+.new-health .health-section{padding:88px 9vw}
+.new-health .health-section-intro{max-width:480px}
+.new-health .health-section h2,.new-health .health-dialogue h2,.new-health .health-locations-heading h2{font:600 clamp(35px,4.5vw,54px)/1.05 Manrope;letter-spacing:-.06em;color:#153e3e;margin:13px 0 16px}
+.new-health .health-section-intro>p,.new-health .health-dialogue-head>p,.new-health .health-locations-heading>p{font-size:12px;line-height:1.85;color:#697f79;max-width:450px}
+.new-health .health-approach{display:grid;grid-template-columns:.8fr 1.2fr;gap:8vw;background:#f8f8f4}
+.new-health .health-approach-list{border-top:1px solid #dce6e0}
+.new-health .health-approach-list article{display:grid;grid-template-columns:35px 1fr 24px;gap:14px;padding:23px 0;border-bottom:1px solid #dce6e0;align-items:start}
+.new-health .health-approach-list article>span{font-size:9px;color:#f7931e;font-weight:800}
+.new-health .health-approach-list article h3{font:700 17px Manrope;color:#153e3e;margin:0 0 7px}
+.new-health .health-approach-list article p{font-size:11px;line-height:1.7;color:#71847d;margin:0;max-width:450px}
+.new-health .health-approach-list article>b{color:#0f8d90;font-weight:400}
+.new-health .health-care{background:#fff}
+.new-health .health-services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:39px}
+.new-health .health-services-grid article{position:relative;min-height:180px;padding:22px;border:1px solid #dce7e1;border-radius:17px;background:#fbfcfa;overflow:hidden}
+.new-health .health-services-grid article>span{font-size:7px;font-weight:800;letter-spacing:.14em;color:#7a928a}
+.new-health .health-services-grid article h3{font:700 18px/1.2 Manrope;color:#153e3e;margin:32px 0 8px}
+.new-health .health-services-grid article p{font-size:10px;line-height:1.7;color:#6b8079;margin:0}
+.new-health .health-services-grid .service-feature{background:#eaf4ee;border-color:#d2e6dc}
+.new-health .health-services-grid .service-feature>span{color:#0f8d90}
+.new-health .health-services-grid .service-feature h3{font-size:22px}
+.new-health .health-services-grid .service-feature i{position:absolute;right:18px;top:14px;font-style:normal;font-size:23px;color:#0f8d90}
+.new-health .health-small-note{font-size:9px;line-height:1.7;color:#84928d;margin:20px 0 0}
+.new-health .health-snippets{background:#edf5f1}
+.new-health .health-snippets>.health-section-intro{margin-bottom:36px}
+.new-health .health-snippet-list{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.new-health .health-snippet{padding:23px;background:#fff;border:1px solid #dce7e1;border-radius:18px;min-height:245px}
+.new-health .health-snippet-head{display:flex;justify-content:space-between;gap:12px;color:#0f8d90;font-size:7px;letter-spacing:.13em;font-weight:800}
+.new-health .health-snippet-head span+span{color:#f7931e}
+.new-health .health-snippet h3{font:700 18px/1.25 Manrope;color:#153e3e;margin:35px 0 12px;letter-spacing:-.025em}
+.new-health .health-snippet p{font-size:10px;line-height:1.8;color:#697f79;margin:0}
+.new-health .health-snippet p b{color:#153e3e}
+.new-health .health-snippet-foot{margin-top:19px;padding-top:15px;border-top:1px solid #d6e4dc;display:flex;justify-content:space-between;gap:24px;align-items:center}
+.new-health .health-snippet-foot span{font-size:7px;letter-spacing:.15em;font-weight:800;color:#0f8d90}
+.new-health .health-snippet-foot p{font-size:9px;color:#778c84;margin:0;max-width:440px;text-align:right}
+.new-health .health-dialogue{padding:88px 9vw;background:#103c3f;color:#e7f0ec}
+.new-health .health-dialogue .health-kicker{color:#7fcec0}
+.new-health .health-dialogue h2{color:#f5f8f5}
+.new-health .health-dialogue h2 em{color:#8ed2c1}
+.new-health .health-dialogue-head{max-width:630px}
+.new-health .health-dialogue-head>p{color:#b2c8bf}
+.new-health .health-dialogue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:36px}
+.new-health .health-dialogue-grid article{padding:23px;border:1px solid #355f5c;border-radius:17px;background:#19474a}
+.new-health .health-dialogue-grid article>span{font-size:7px;letter-spacing:.15em;color:#95cfc4;font-weight:800}
+.new-health .dialogue-symbol{font-size:26px;color:#f7931e;margin:22px 0}
+.new-health .health-dialogue-grid h3{font:700 18px Manrope;color:#fff;margin:0 0 9px}
+.new-health .health-dialogue-grid p{font-size:10px;line-height:1.8;color:#c0d3cd;margin:0}
+.new-health .dialogue-cta{margin-top:28px;background:#f3f7f3!important;color:#103c3f!important}
+.new-health .health-locations{padding:80px 9vw 88px;background:#fff}
+.new-health .health-locations-heading{margin-bottom:28px}
+.new-health .health-location-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #dce6e0;border-radius:22px;overflow:hidden}
+.new-health .health-location-card{min-height:360px;padding:26px;display:flex;flex-direction:column;background:#edf5f1}
+.new-health .health-location-card+.health-location-card{border-left:1px solid #d6e2dc;background:#faf5ef}
+.new-health .location-card-top{display:flex;align-items:center;justify-content:space-between;font-size:8px;letter-spacing:.15em;color:#66817a;font-weight:800}
+.new-health .location-pin{display:grid;place-items:center;width:28px;height:28px;border:1px solid #cadbd3;border-radius:50%;font-size:13px;color:#0f8d90}
+.new-health .location-line{height:2px;width:55px;background:linear-gradient(90deg,#0f8d90,#1aa0e6,#16a34a,#f7931e);margin:19px 0}
+.new-health .location-dental .location-line{background:linear-gradient(90deg,#0f8d90,#1aa0e6,#e63946)}
+.new-health .health-location-card h3{font:700 21px Manrope;color:#153e3e;margin:0 0 7px}
+.new-health .health-location-card .location-doctor{font-size:10px;color:#71847d;margin:0 0 15px}
+.new-health .health-location-card address{font-style:normal;font-size:11px;line-height:1.75;color:#4e6962;min-height:48px}
+.new-health .location-hours{display:grid;grid-template-columns:75px 1fr;gap:5px 10px;font-size:9px;color:#71847d;margin-top:9px}
+.new-health .location-hours b{font-size:9px;color:#375d57}
+.new-health .location-actions{display:flex;gap:10px;flex-wrap:wrap;border-top:1px solid #d4e2da;margin-top:auto;padding-top:17px}
+.new-health .location-actions a{font-size:9px;font-weight:800;color:#0d7777}
+.new-health .location-dental .location-actions a{color:#9b5746}
+.new-health .health-footer{padding:33px 9vw 27px;background:#07383b;color:#dce9e4;display:grid;grid-template-columns:auto auto 1fr;align-items:center;gap:25px}
+.new-health .health-footer-brand{display:flex;align-items:center;gap:9px}
+.new-health .health-footer-brand img{width:36px;height:36px}
+.new-health .health-footer-brand b{display:block;font:800 11px Manrope;letter-spacing:.13em;color:#fff}
+.new-health .health-footer-brand small{display:block;font-size:7px;letter-spacing:.16em;color:#8fb9ae}
+.new-health .health-footer>p{font-size:9px;color:#a6c3ba;margin:0}
+.new-health .health-footer>div{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:15px}
+.new-health .health-footer>div a{font-size:9px;color:#d4e8df}
+.new-health .health-footer>small{grid-column:1/-1;border-top:1px solid #2c5b5b;padding-top:18px;font-size:8px;line-height:1.6;color:#81a49a}
+@media(max-width:1000px){.new-health .health-header{padding:0 4vw;gap:15px}.new-health .health-nav{gap:12px}.new-health .health-hero{padding:60px 6vw}.new-health .health-doctor{padding:40px 6vw;grid-template-columns:80px 1fr}.new-health .health-doctor-note{grid-column:2;border-left:0;border-top:1px solid #dbe6e0;padding:17px 0 0}.new-health .health-section,.new-health .health-dialogue,.new-health .health-locations{padding-left:6vw;padding-right:6vw}.new-health .health-approach{gap:5vw}}
+@media(max-width:760px){.new-health .health-header{height:70px}.new-health .health-nav{display:none}.new-health .health-hero{grid-template-columns:1fr;padding-top:42px}.new-health .health-hero h1{font-size:clamp(43px,10vw,61px)}.new-health .health-hero-visual{height:330px;margin-top:16px}.new-health .orbit-one{width:275px;height:275px}.new-health .orbit-two{width:220px;height:220px}.new-health .health-abstract-mark{transform:scale(.8)}.new-health .health-visual-caption{right:2%;bottom:0}.new-health .health-approach{grid-template-columns:1fr;gap:30px}.new-health .health-services-grid{grid-template-columns:repeat(2,1fr)}.new-health .health-snippet-list{grid-template-columns:1fr}.new-health .health-snippet{min-height:0}.new-health .health-snippet h3{margin-top:25px}.new-health .health-dialogue-grid{grid-template-columns:1fr}.new-health .health-location-card{padding:19px;min-height:350px}.new-health .health-footer{grid-template-columns:1fr 1fr;gap:18px}.new-health .health-footer>div{grid-column:1/-1;justify-content:flex-start}.new-health .health-footer>small{grid-column:1/-1}}
+@media(max-width:520px){.new-health .health-doctor{grid-template-columns:1fr;gap:15px;padding:34px 6vw}.new-health .health-doctor-mark{width:66px;height:66px}.new-health .health-doctor-mark img{width:50px;height:50px}.new-health .health-doctor-note{grid-column:auto;padding-top:15px}.new-health .health-section,.new-health .health-dialogue{padding-top:62px;padding-bottom:62px}.new-health .health-section h2,.new-health .health-dialogue h2,.new-health .health-locations-heading h2{font-size:38px}.new-health .health-services-grid{grid-template-columns:1fr}.new-health .health-services-grid article{min-height:145px}.new-health .health-services-grid article h3{margin-top:22px}.new-health .health-snippet-foot{display:block}.new-health .health-snippet-foot p{text-align:left;margin-top:8px}.new-health .health-location-grid{grid-template-columns:1fr}.new-health .health-location-card{min-height:0;padding:24px}.new-health .health-location-card+.health-location-card{border-left:0;border-top:1px solid #d6e2dc}.new-health .health-location-card address{min-height:0;margin-bottom:15px}.new-health .health-footer{padding:28px 6vw}.new-health .health-footer>p{grid-column:1/-1;order:2}.new-health .health-footer>div{order:3}.new-health .health-footer>small{order:4}.new-health .health-header-cta{padding:10px 12px;font-size:9px}.new-health .health-brand img{width:37px;height:37px}.new-health .health-brand b{font-size:11px}}
