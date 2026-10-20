@@ -15,3 +15,24 @@
 @media(max-width:650px){.d-locations-head{grid-template-columns:1fr;gap:12px}.d-location-grid{grid-template-columns:1fr}.d-location-card+.d-location-card{border-left:0;border-top:1px solid rgba(172,221,207,.26)}.d-location-card{min-height:0}}
 @media(max-width:520px){.d-header{padding:0 5vw}.d-brand img{width:41px;height:41px}.d-brand b{font-size:11px}.d-head-cta{padding:10px 11px;font-size:9px}.d-hero{padding:38px 5vw 43px}.d-hero-copy>p{font-size:12px}.d-hero-meta{gap:8px;flex-direction:column}.d-hero-meta span+span:before{content:"";margin:0}.d-hero-art{height:278px}.d-orbit-one{width:235px;height:235px}.d-orbit-two{width:183px;height:183px}.d-logo-disc{width:156px;height:156px}.d-logo-disc img{width:122px;height:122px}.d-art-note{min-width:142px;padding:12px 13px}.d-art-note b{font-size:16px}.d-doctor{grid-template-columns:1fr;padding:32px 5vw;gap:14px}.d-doctor-mark{width:72px;height:72px;border-radius:19px}.d-doctor-mark img{width:59px;height:59px}.d-doctor h2{font-size:33px}.d-doctor-note{grid-column:auto}.d-section,.d-dialogue{padding:51px 5vw}.d-section h2,.d-dialogue h2,.d-locations h2{font-size:36px}.d-care-grid{grid-template-columns:1fr}.d-care-grid article{min-height:0}.d-care-grid h3{margin-top:20px}.d-note-foot{align-items:flex-start;flex-direction:column;gap:8px}.d-note-foot p{text-align:left}.d-locations{padding:48px 5vw 52px}.d-location-card{padding:23px 21px}.d-footer{padding:25px 5vw}}
 @media(prefers-reduced-motion:reduce){.d-care-grid article,.d-dialogue-grid article{transition:none}}
+
+
+/* Header return-to-home button */
+.d-home-cta{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:38px;padding:10px 13px;border:1px solid #c9dfd7;border-radius:999px;
+  color:#0b7778;background:rgba(255,255,255,.65);font-size:10px;font-weight:800;
+  white-space:nowrap;transition:background .18s ease,border-color .18s ease,transform .18s ease;
+}
+.d-home-cta:hover{background:#e8f5ef;border-color:#8cc6b4;transform:translateY(-1px)}
+.d-home-cta:focus-visible{outline:2px solid #f7931e;outline-offset:3px}
+@media(max-width:1000px){.d-header{gap:9px}.d-home-cta{padding:9px 11px}}
+@media(max-width:520px){
+ .d-header{padding-left:3.5vw;padding-right:3.5vw;gap:6px}
+ .d-brand{gap:6px}
+ .d-brand img{width:35px;height:35px}
+ .d-brand b{font-size:10px;letter-spacing:.1em}
+ .d-brand small{font-size:7px;letter-spacing:.13em}
+ .d-home-cta{min-height:34px;padding:8px 8px;font-size:9px}
+ .d-head-cta{padding:9px 9px;font-size:8px;gap:6px}
+}

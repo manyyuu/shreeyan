@@ -930,3 +930,27 @@
 .dentalpage .page-logo img{display:block;width:48px;height:48px;object-fit:contain}
 .dentalpage .smilecard-logo{width:72px;height:72px;object-fit:contain}
 .dentalpage .profile.dentalprofile .profile-art img{width:154px;height:154px;object-fit:contain}
+
+
+/* Header return-to-home button on both individual sites */
+.new-health .health-home-cta{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  min-height:38px;padding:10px 13px;border:1px solid #c9dfd7;border-radius:999px;
+  color:#0b7778;background:rgba(255,255,255,.65);font-size:10px;font-weight:800;
+  white-space:nowrap;transition:background .18s ease,border-color .18s ease,transform .18s ease;
+}
+.new-health .health-home-cta:hover{background:#e8f5ef;border-color:#8cc6b4;transform:translateY(-1px)}
+.new-health .health-home-cta:focus-visible{outline:2px solid #f7931e;outline-offset:3px}
+@media(max-width:1000px){
+ .new-health .health-header{gap:10px}
+ .new-health .health-home-cta{padding:9px 11px}
+}
+@media(max-width:520px){
+ .new-health .health-header{padding-left:4vw;padding-right:4vw;gap:7px}
+ .new-health .health-brand{gap:6px;min-width:0}
+ .new-health .health-brand img{width:34px;height:34px}
+ .new-health .health-brand b{font-size:10px;letter-spacing:.1em}
+ .new-health .health-brand small{font-size:7px;letter-spacing:.12em}
+ .new-health .health-header-cta{padding:9px 10px;font-size:8px;gap:6px}
+ .new-health .health-home-cta{min-height:34px;padding:8px 9px;font-size:9px}
+}
