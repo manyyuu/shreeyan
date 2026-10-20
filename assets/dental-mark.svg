@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="dental-title">
-  <title id="dental-title">SHREEYAN Dental Care mark</title>
-  <path d="M34 25C24 23 17 31 18 43C19 56 26 70 32 85C35 94 40 98 45 88C49 78 52 68 58 68C64 68 68 80 72 89C76 98 82 94 86 83C91 69 98 56 101 44C104 31 96 24 86 24C76 24 70 29 60 29C50 29 43 24 34 25Z" stroke="#168FC5" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M59 88C57 70 71 53 89 47C91 66 77 83 59 88Z" fill="#35A96A"/>
-  <path d="M91 17V37M81 27H101" stroke="#F7931E" stroke-width="6.5" stroke-linecap="round"/>
+  <title id="dental-title">SHREEYAN Dental Care tooth and leaf mark</title>
+  <path d="M35 24C25 22 19 30 20 41C20 54 27 68 33 82C37 92 43 92 47 81L54 63C56 58 60 58 62 63L70 81C74 92 80 92 84 82C90 68 97 54 100 42C102 30 95 23 85 24C75 24 68 29 60 29C52 29 44 24 35 24Z" stroke="#087F8C" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M60 79C59 65 70 52 84 47C86 61 76 75 60 79Z" fill="#35A96A"/>
+  <path d="M63 74C69 65 76 56 82 51" stroke="#EAF7F0" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M96 12V28M88 20H104" stroke="#F7931E" stroke-width="5.8" stroke-linecap="round"/>
 </svg>
