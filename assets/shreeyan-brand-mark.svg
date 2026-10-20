@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="shreeyan-title">
+  <title id="shreeyan-title">SHREEYAN abstract mark</title>
+  <path d="M79 24C66 15 49 19 42 31C35 43 43 51 56 58C69 65 78 71 73 83C68 96 49 101 35 91" stroke="#0F8D90" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 24C84 28 87 34 86 41" stroke="#1AA0E6" stroke-width="13" stroke-linecap="round"/>
+  <path d="M35 91C29 87 26 81 27 75" stroke="#16A34A" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="91" cy="20" r="6.5" fill="#F7931E"/>
+</svg>
