@@ -791,3 +791,111 @@
  .principles-title h2{font-size:37px}
  .principles-action{grid-column:auto;align-items:flex-start;flex-direction:column}
 }
+
+
+/* ===== Logo refresh + refined individual clinic experiences ===== */
+.new-health .health-brand img,
+.new-health .health-footer-brand img{object-fit:contain}
+.new-health .health-hero{background:radial-gradient(ellipse at 82% 40%,rgba(36,190,190,.10),transparent 38%),linear-gradient(120deg,#eef6f2 0%,#f4f8f3 100%)}
+.new-health .health-hero-visual{min-height:440px}
+.new-health .health-visual-orbit{border-color:#b9d8d0}
+.new-health .orbit-one{width:370px;height:370px}
+.new-health .orbit-two{width:292px;height:292px;border-style:solid;opacity:.55}
+.new-health .health-abstract-mark{width:235px;height:235px;position:relative;display:grid;place-items:center;filter:none}
+.new-health .health-abstract-mark img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 13px 15px rgba(8,83,84,.08))}
+.new-health .health-visual-caption{right:-1%;bottom:0;border-radius:17px}
+.new-health .health-visual-index{left:0;color:#0f8d90}
+.new-health .health-doctor{grid-template-columns:108px minmax(0,1.15fr) minmax(260px,.9fr);gap:30px;padding:56px 9vw;background:linear-gradient(100deg,#fff 0%,#fbfdf9 100%);border-bottom:1px solid #dce8e1}
+.new-health .health-doctor-mark{width:100px;height:100px;border-radius:26px;background:#edf7f3;border:1px solid #d9e9e2;box-shadow:0 12px 28px rgba(15,91,84,.05)}
+.new-health .health-doctor-mark img{width:82px;height:82px;object-fit:contain}
+.new-health .health-doctor h2{font:600 clamp(30px,3.25vw,40px)/1.05 Manrope;letter-spacing:-.05em;color:#153e3e;margin:9px 0 13px}
+.new-health .health-doctor h2 em{font-family:Georgia,serif;color:#078f9c;font-weight:400}
+.new-health .health-doctor-copy>p{font-size:12px;line-height:1.6;color:#627a75;margin:7px 0}
+.new-health .health-doctor-copy .health-doctor-role{font-size:14px;font-weight:700;color:#153e3e}
+.new-health .health-doctor-qualifications{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 10px}
+.new-health .health-doctor-qualifications span{border:1px solid #d3e7df;background:#f0f8f4;border-radius:999px;padding:6px 9px;color:#117d7e;font-size:9px;letter-spacing:.04em;font-weight:800}
+.new-health .health-doctor-copy .health-registration{font-size:10px;color:#799087;margin-top:10px}
+.new-health .health-doctor-note{border:1px solid #dbeae2;border-left:3px solid #1ab4b9;border-radius:16px;background:#f3f9f5;padding:18px 20px}
+.new-health .health-doctor-note span{font-size:8px;letter-spacing:.16em;color:#0f8d90;font-weight:800}
+.new-health .health-doctor-note p{font-size:12px;line-height:1.8;color:#58716a;margin:10px 0 12px}
+.new-health .health-doctor-note>a{display:inline-flex;align-items:center;gap:10px;color:#0b7778;font-size:10px;font-weight:800}
+.new-health .health-doctor-note>a b{font-size:14px;font-weight:400}
+.new-health .health-services-grid article{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.new-health .health-services-grid article:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(16,60,64,.07);border-color:#b9d9cb}
+.new-health .health-snippet{transition:transform .2s ease,box-shadow .2s ease}
+.new-health .health-snippet:hover{transform:translateY(-3px);box-shadow:0 15px 32px rgba(16,60,64,.06)}
+.new-health .health-dialogue-grid article{transition:background .2s ease,border-color .2s ease,transform .2s ease}
+.new-health .health-dialogue-grid article:hover{background:#1d5254;border-color:#54827d;transform:translateY(-2px)}
+.new-health .health-location-card{transition:background .2s ease}
+.new-health .health-location-card h3{font-size:23px}
+.new-health .health-location-card address{font-size:13px;line-height:1.85}
+.new-health .location-actions a{font-size:10px}
+.dentalpage .dentalhero{background:radial-gradient(ellipse at 77% 34%,rgba(40,193,196,.12),transparent 38%),linear-gradient(125deg,#edf7f4 0%,#f3f9f5 100%)}
+.dentalpage h1 i,.dentalpage h2 i{color:#119eb5}
+.dentalpage .red-eyebrow{color:#0c8f9c}
+.dentalpage .dentalgraphic{min-height:470px}
+.dentalpage .smileoval{width:405px;height:275px;border-color:#1cb3c7;opacity:.38;box-shadow:inset 0 0 0 28px rgba(20,172,181,.04)}
+.dentalpage .smilecard{width:280px;height:340px;border:1px solid #dce9e4;border-radius:27px;background:rgba(255,255,255,.97);box-shadow:0 27px 65px rgba(11,85,82,.13);transform:rotate(3deg);padding:25px}
+.dentalpage .smilecard-logo{width:72px;height:72px;object-fit:contain;padding:9px;background:#eef8f3;border:1px solid #e1ede5;border-radius:19px}
+.dentalpage .smilecard small{font-size:8px;letter-spacing:.18em;color:#108b92}
+.dentalpage .smilecard b{font-size:33px;line-height:1.02}
+.dentalpage .profile.dentalprofile{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:70px;padding:86px 9vw;background:linear-gradient(110deg,#f1f8f4 0%,#fff 72%);align-items:center}
+.dentalpage .profile.dentalprofile .profile-art{height:405px;border-radius:29px;background:radial-gradient(circle at 50% 45%,#fdfefd 0%,#e6f4ee 58%,#d9eee7 100%);border:1px solid #d8e9e1;box-shadow:0 18px 50px rgba(17,81,75,.06)}
+.dentalpage .profile.dentalprofile .profile-art:after{width:300px;height:300px;border-color:#a7d8cc;opacity:.8}
+.dentalpage .profile.dentalprofile .profile-art img{width:150px;height:150px;object-fit:contain;position:relative;z-index:2;padding:17px;border-radius:30px;background:#fff;border:1px solid #e1ece5;box-shadow:0 18px 38px rgba(10,94,88,.10)}
+.dentalpage .profile.dentalprofile .profile-art small{color:#43756d;font-size:8px;letter-spacing:.19em}
+.dentalpage .profile.dentalprofile h2{font-size:clamp(40px,4.2vw,57px);line-height:1.04;letter-spacing:-.055em;margin:12px 0}
+.dentalpage .profile.dentalprofile .credentials{font-size:12px;letter-spacing:.08em;color:#0c929a}
+.dentalpage .profile.dentalprofile .lead{font-size:16px;line-height:1.85;color:#536f68;max-width:620px;margin:24px 0}
+.dentalpage .profile.dentalprofile hr{border-top-color:#d4e6dd;margin:28px 0}
+.dentalpage .profile.dentalprofile>div:last-child>small{color:#0c8f91;font-size:9px}
+.dentalpage .redcontact{background:linear-gradient(115deg,#0a7176,#0d8a8b)}
+.dentalpage .redcontact .kicker{color:#bcebe0}
+.dentalpage .redcontact p{color:#dcf3eb}
+.dentalpage .services article,.dentalpage .education article,.dentalpage .fact-card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.dentalpage .services article:hover,.dentalpage .education article:hover,.dentalpage .fact-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(10,76,72,.07);border-color:#bdddd1}
+.dentalpage .services article>b{color:#0f9bb1}
+.dentalpage .services article{border-radius:21px;background:linear-gradient(145deg,#fff,#fbfdfb)}
+.dentalpage .education article{border-radius:21px}
+.dentalpage .dentalpage .kicker{color:#0b8d95}
+@media(max-width:1000px){
+ .new-health .health-doctor{grid-template-columns:92px minmax(0,1fr);gap:22px;padding:44px 6vw}
+ .new-health .health-doctor-note{grid-column:2}
+ .new-health .health-doctor-mark{width:88px;height:88px}
+ .new-health .health-doctor-mark img{width:70px;height:70px}
+ .new-health .health-abstract-mark{width:215px;height:215px}
+ .dentalpage .profile.dentalprofile{gap:40px;padding:72px 6vw}
+ .dentalpage .profile.dentalprofile .profile-art{height:360px}
+ .dentalpage .profile.dentalprofile .profile-art:after{width:260px;height:260px}
+}
+@media(max-width:760px){
+ .new-health .health-hero-visual{height:350px;min-height:350px;margin-top:16px}
+ .new-health .health-visual-orbit.orbit-one{width:290px;height:290px}
+ .new-health .health-visual-orbit.orbit-two{width:225px;height:225px}
+ .new-health .health-abstract-mark{width:185px;height:185px}
+ .new-health .health-visual-caption{right:2%;bottom:0}
+ .dentalpage .dentalgraphic{min-height:390px}
+ .dentalpage .smileoval{width:min(360px,88vw);height:230px}
+ .dentalpage .smilecard{width:252px;height:310px;padding:22px}
+ .dentalpage .profile.dentalprofile{gap:34px}
+}
+@media(max-width:520px){
+ .new-health .health-doctor{grid-template-columns:1fr;gap:16px;padding:36px 6vw}
+ .new-health .health-doctor-mark{width:76px;height:76px}
+ .new-health .health-doctor-mark img{width:62px;height:62px}
+ .new-health .health-doctor-note{grid-column:auto;margin-top:2px;padding:17px}
+ .new-health .health-doctor h2{font-size:34px}
+ .new-health .health-doctor-qualifications span{font-size:8px;padding:6px 8px}
+ .new-health .health-abstract-mark{width:170px;height:170px}
+ .dentalpage .dentalgraphic{min-height:340px}
+ .dentalpage .smilecard{width:224px;height:284px;padding:20px}
+ .dentalpage .smilecard-logo{width:60px;height:60px}
+ .dentalpage .profile.dentalprofile{grid-template-columns:1fr;padding:54px 6vw;gap:28px}
+ .dentalpage .profile.dentalprofile .profile-art{height:300px}
+ .dentalpage .profile.dentalprofile .profile-art:after{width:235px;height:235px}
+ .dentalpage .profile.dentalprofile .profile-art img{width:122px;height:122px;padding:14px;border-radius:24px}
+ .dentalpage .profile.dentalprofile h2{font-size:42px}
+}
+@media(prefers-reduced-motion:reduce){
+ .new-health .health-services-grid article,.new-health .health-snippet,.new-health .health-dialogue-grid article,.dentalpage .services article,.dentalpage .education article,.dentalpage .fact-card{transition:none}
+}

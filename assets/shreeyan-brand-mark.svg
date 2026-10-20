@@ -1,7 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="shreeyan-title">
-  <title id="shreeyan-title">SHREEYAN abstract mark</title>
-  <path d="M79 24C66 15 49 19 42 31C35 43 43 51 56 58C69 65 78 71 73 83C68 96 49 101 35 91" stroke="#0F8D90" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M78 24C84 28 87 34 86 41" stroke="#1AA0E6" stroke-width="13" stroke-linecap="round"/>
-  <path d="M35 91C29 87 26 81 27 75" stroke="#16A34A" stroke-width="13" stroke-linecap="round"/>
-  <circle cx="91" cy="20" r="6.5" fill="#F7931E"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="health-title">
+<title id="brand-title">SHREEYAN master brand mark</title>
+<defs>
+  <linearGradient id="ring" x1="10" y1="16" x2="107" y2="105" gradientUnits="userSpaceOnUse"><stop stop-color="#129BC8"/><stop offset=".48" stop-color="#29C5C8"/><stop offset="1" stop-color="#087A80"/></linearGradient>
+  <linearGradient id="leafBlue" x1="25" y1="38" x2="80" y2="70" gradientUnits="userSpaceOnUse"><stop stop-color="#118EC5"/><stop offset="1" stop-color="#16B4C6"/></linearGradient>
+  <linearGradient id="leafCyan" x1="23" y1="62" x2="78" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#35CBD3"/><stop offset="1" stop-color="#087C8A"/></linearGradient>
+  <linearGradient id="leafGreen" x1="78" y1="39" x2="103" y2="86" gradientUnits="userSpaceOnUse"><stop stop-color="#6CC887"/><stop offset="1" stop-color="#07966E"/></linearGradient>
+</defs>
+<path d="M92 13.5A47 47 0 1 0 105.5 48" stroke="url(#ring)" stroke-width="5.4" stroke-linecap="round"/>
+<path d="M25 57.5C39.5 34.5 64.7 36.8 81.2 61.5C61.5 72.3 41.7 72 25 57.5Z" fill="url(#leafBlue)"/>
+<path d="M20.8 61.1C42.3 58.2 59.6 73.8 80.3 87.4C56.9 96.4 29.3 84.7 20.8 61.1Z" fill="url(#leafCyan)"/>
+<path d="M80.4 87.9C76.8 65.1 89.8 43.1 103.2 38.1C105.1 59.5 95.4 78.2 80.4 87.9Z" fill="url(#leafGreen)"/>
+<path d="M28 57C43 57 57 68 73 81" stroke="#D8F7F2" stroke-width="2.4" stroke-linecap="round" opacity=".95"/>
+<path d="M83.2 82C88 67.5 96.1 53.4 101.5 43.5" stroke="#E3F8EB" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+<rect x="81.2" y="24.2" width="11.5" height="31" rx="3.4" fill="#F7931E"/>
+<rect x="71.5" y="33.9" width="30.9" height="11.5" rx="3.4" fill="#F7931E"/>
 </svg>
