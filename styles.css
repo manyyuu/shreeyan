@@ -991,3 +991,23 @@
   .new-health .health-home-cta{min-height:32px;padding:7px 8px;font-size:8px}
   .new-health .health-header-cta{min-height:32px;padding:7px 8px;font-size:8px;gap:5px}
 }
+
+
+/* Myth & fact cards: clearer labels, concise facts, small source links */
+.new-health .myth-fact-card{display:flex;flex-direction:column;min-height:282px}
+.new-health .myth-fact-card h3{margin:24px 0 12px}
+.new-health .myth-fact-card p{font-size:11px;line-height:1.8;color:#617b73}
+.new-health .myth-fact-card p b{display:inline-block;margin-right:5px;color:#0b858b;font-size:9px;letter-spacing:.08em}
+.new-health .health-snippet-source{display:inline-flex;align-items:center;gap:5px;margin-top:auto;padding-top:16px;font-size:9px;line-height:1.5;font-weight:800;color:#0b7f83;text-decoration:underline;text-decoration-color:#a9d7ca;text-underline-offset:3px}
+.new-health .health-snippet-source:hover{color:#07575d}
+.d-myth-card{display:flex;flex-direction:column}
+.d-myth-card h3{margin-top:24px!important}
+.d-myth-card p{font-size:11px!important;line-height:1.8!important;color:#627a73!important}
+.d-myth-card p b{display:inline-block;margin-right:5px;color:#0b858b;font-size:9px;letter-spacing:.08em}
+.d-note-source{display:inline-flex;align-items:center;margin-top:auto;padding-top:14px;color:#0b7f83;font-size:9px;line-height:1.5;font-weight:800;text-decoration:underline;text-decoration-color:#addbcf;text-underline-offset:3px}
+.d-note-source:hover{color:#07575d}
+@media(max-width:760px){
+ .new-health .myth-fact-card{min-height:0}
+ .new-health .health-snippet-source{margin-top:12px}
+ .d-note-source{margin-top:12px}
+}
