@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="health-title">
-  <title id="health-title">SHREEYAN Health+ mark</title>
-  <path d="M87 14.5A47 47 0 1 0 105 51" stroke="#0D8E9A" stroke-width="5.5" stroke-linecap="round"/>
-  <path d="M23 57C37 36 60 37 77 58C60 69 39 70 23 57Z" fill="#168FC5"/>
-  <path d="M21 62C42 59 60 74 79 87C56 96 29 84 21 62Z" fill="#2BBCC8"/>
-  <path d="M78 88C74 66 87 45 101 39C104 60 93 79 78 88Z" fill="#35A96A"/>
-  <path d="M85 23V43M75 33H95" stroke="#F7931E" stroke-width="7" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="brand-title">
+  <title id="brand-title">SHREEYAN circular leaf and plus mark</title>
+  <path d="M87 14.5A47 47 0 1 0 105 51" stroke="#087F8C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 58C39 35 63 36 80 58C61 70 41 71 26 58Z" fill="#168FC5"/>
+  <path d="M22 62C43 59 60 75 79 88C56 97 30 84 22 62Z" fill="#25B9C5"/>
+  <path d="M79 88C75 66 88 44 102 39C104 61 94 79 79 88Z" fill="#35A96A"/>
+  <path d="M29 57C43 58 57 69 70 81" stroke="#E7F7F2" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M83 81C89 67 96 53 100 43" stroke="#E7F7F2" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M82 24V42M73 33H91" stroke="#F7931E" stroke-width="7.4" stroke-linecap="square"/>
 </svg>

@@ -954,3 +954,40 @@
  .new-health .health-header-cta{padding:9px 10px;font-size:8px;gap:6px}
  .new-health .health-home-cta{min-height:34px;padding:8px 9px;font-size:9px}
 }
+
+
+/* Strong, visible Home navigation and logo concept refresh */
+.new-health .health-header{
+  display:grid!important;
+  grid-template-columns:minmax(128px,auto) minmax(0,1fr) auto auto!important;
+  align-items:center;
+  gap:15px!important;
+}
+.new-health .health-nav{justify-self:center;min-width:0}
+.new-health .health-home-cta{
+  display:inline-flex!important;visibility:visible!important;opacity:1!important;
+  align-items:center;justify-content:center;min-height:38px;padding:10px 13px;
+  border:1px solid #a9d1c2;border-radius:999px;color:#0b686b;background:#eaf5ef;
+  font-size:10px;font-weight:800;white-space:nowrap;position:relative;z-index:5;
+}
+.new-health .health-home-cta:hover{background:#d9efe5;border-color:#78bba6}
+.new-health .health-header-cta{justify-self:end}
+@media(max-width:1000px){
+  .new-health .health-header{grid-template-columns:minmax(116px,auto) minmax(0,1fr) auto auto!important;gap:8px!important;padding-left:4vw;padding-right:4vw}
+  .new-health .health-nav{gap:9px;font-size:9px}
+  .new-health .health-home-cta{padding:9px 10px;font-size:9px}
+  .new-health .health-header-cta{padding:10px 11px;font-size:9px}
+}
+@media(max-width:760px){
+  .new-health .health-header{grid-template-columns:minmax(0,1fr) auto auto!important;gap:8px!important}
+  .new-health .health-nav{display:none!important}
+}
+@media(max-width:520px){
+  .new-health .health-header{padding-left:3.5vw!important;padding-right:3.5vw!important;gap:6px!important}
+  .new-health .health-brand{min-width:0;gap:5px}
+  .new-health .health-brand img{width:32px;height:32px}
+  .new-health .health-brand b{font-size:9px;letter-spacing:.08em}
+  .new-health .health-brand small{font-size:6px;letter-spacing:.1em}
+  .new-health .health-home-cta{min-height:32px;padding:7px 8px;font-size:8px}
+  .new-health .health-header-cta{min-height:32px;padding:7px 8px;font-size:8px;gap:5px}
+}

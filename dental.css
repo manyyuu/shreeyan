@@ -36,3 +36,40 @@
  .d-home-cta{min-height:34px;padding:8px 8px;font-size:9px}
  .d-head-cta{padding:9px 9px;font-size:8px;gap:6px}
 }
+
+
+/* Strong, visible Home navigation on Dental Care */
+.d-header{
+  display:grid!important;
+  grid-template-columns:minmax(128px,auto) minmax(0,1fr) auto auto!important;
+  align-items:center;
+  gap:15px!important;
+}
+.d-header nav{justify-self:center;min-width:0}
+.d-home-cta{
+  display:inline-flex!important;visibility:visible!important;opacity:1!important;
+  align-items:center;justify-content:center;min-height:38px;padding:10px 13px;
+  border:1px solid #a9d1c2;border-radius:999px;color:#0b686b;background:#eaf5ef;
+  font-size:10px;font-weight:800;white-space:nowrap;position:relative;z-index:5;
+}
+.d-home-cta:hover{background:#d9efe5;border-color:#78bba6}
+.d-head-cta{justify-self:end}
+@media(max-width:1000px){
+  .d-header{grid-template-columns:minmax(116px,auto) minmax(0,1fr) auto auto!important;gap:8px!important;padding-left:4vw;padding-right:4vw}
+  .d-header nav{gap:9px;font-size:9px}
+  .d-home-cta{padding:9px 10px;font-size:9px}
+  .d-head-cta{padding:10px 11px;font-size:9px}
+}
+@media(max-width:760px){
+  .d-header{grid-template-columns:minmax(0,1fr) auto auto!important;gap:8px!important}
+  .d-header nav{display:none!important}
+}
+@media(max-width:520px){
+  .d-header{padding-left:3.5vw!important;padding-right:3.5vw!important;gap:6px!important}
+  .d-brand{min-width:0;gap:5px}
+  .d-brand img{width:32px;height:32px}
+  .d-brand b{font-size:9px;letter-spacing:.08em}
+  .d-brand small{font-size:6px;letter-spacing:.1em}
+  .d-home-cta{min-height:32px;padding:7px 8px;font-size:8px}
+  .d-head-cta{min-height:32px;padding:7px 8px;font-size:8px;gap:5px}
+}

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-labelledby="dental-title">
-  <title id="dental-title">SHREEYAN Dental Care tooth and leaf mark</title>
-  <path d="M36 25C27 23 22 31 22 41C22 53 28 66 34 81C38 91 43 91 47 81L54 64C56 59 60 59 62 64L69 81C73 91 78 91 82 81C88 67 94 53 97 42C99 31 92 24 83 25C74 25 68 30 60 30C52 30 44 25 36 25Z" stroke="#087F8C" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M64 77C64 66 73 56 85 53C86 64 77 74 64 77Z" fill="#35A96A"/>
-  <path d="M67 73C73 66 79 60 83 56" stroke="#EAF7F0" stroke-width="2.3" stroke-linecap="round"/>
-  <path d="M106 7V23M98 15H114" stroke="#F7931E" stroke-width="5.8" stroke-linecap="round"/>
+  <title id="dental-title">SHREEYAN Dental Care tooth, leaf and plus mark</title>
+  <path d="M34 22C24 20 18 29 19 41C20 55 27 69 33 84C37 94 43 94 47 82L54 63C56 58 60 58 62 63L70 82C74 94 80 93 84 83C90 68 97 54 100 41C102 29 95 21 85 22C75 22 68 28 60 28C52 28 44 22 34 22Z" stroke="#087F8C" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M61 80C60 65 72 51 86 47C87 62 77 76 61 80Z" fill="#35A96A"/>
+  <path d="M64 75C70 66 77 57 83 51" stroke="#EAF7F0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M100 9V25M92 17H108" stroke="#F7931E" stroke-width="6.2" stroke-linecap="round"/>
 </svg>
