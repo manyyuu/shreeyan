@@ -857,7 +857,7 @@
 .dentalpage .services article>b{color:#0f9bb1}
 .dentalpage .services article{border-radius:21px;background:linear-gradient(145deg,#fff,#fbfdfb)}
 .dentalpage .education article{border-radius:21px}
-.dentalpage .dentalpage .kicker{color:#0b8d95}
+.dentalpage .kicker{color:#0b8d95}
 @media(max-width:1000px){
  .new-health .health-doctor{grid-template-columns:92px minmax(0,1fr);gap:22px;padding:44px 6vw}
  .new-health .health-doctor-note{grid-column:2}
