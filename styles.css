@@ -737,3 +737,57 @@
   .shared-location-details>div{grid-template-columns:85px minmax(0,1fr)}
   .shared-location-actions a{font-size:10px;padding:10px 12px}
 }
+
+
+/* ===== Main welcome page: helpful context between clinic choices and locations ===== */
+.welcome-experience{padding:76px 10vw 82px;background:#f8f8f4}
+.welcome-experience-heading{display:grid;grid-template-columns:1fr .72fr;gap:18px 50px;align-items:end;margin-bottom:34px}
+.welcome-experience-heading>.welcome-kicker{grid-column:1/-1}
+.welcome-experience-heading h2{font:600 clamp(35px,4.4vw,52px)/1.06 Manrope;letter-spacing:-.055em;color:#123d40;margin:0}
+.welcome-experience-heading h2 em{font-family:Georgia,serif;font-weight:400;color:#0f8d90}
+.welcome-experience-heading>p{font-size:12px;line-height:1.85;color:#6b817a;max-width:390px;margin:0 0 4px}
+.welcome-experience-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.welcome-experience-grid article{position:relative;padding:25px 25px 23px;border:1px solid #dce7e1;border-radius:19px;background:#fff;min-height:260px;display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.welcome-experience-grid article:hover{transform:translateY(-3px);border-color:#b5d3c8;box-shadow:0 16px 38px rgba(16,60,64,.06)}
+.experience-number{position:absolute;top:24px;right:24px;font:800 9px Manrope;color:#8ca59c;letter-spacing:.12em}
+.experience-icon{width:38px;height:38px;border:1px solid #cfe1d8;border-radius:12px;display:grid;place-items:center;color:#0f8d90;background:#f2f8f4;font-size:20px}
+.welcome-experience-grid h3{font:700 20px/1.24 Manrope;letter-spacing:-.03em;color:#123d40;margin:26px 0 10px;max-width:280px}
+.welcome-experience-grid p{font-size:11px;line-height:1.8;color:#6e827b;margin:0 0 19px}
+.welcome-experience-grid a{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #e1e9e4;padding-top:13px;font-size:10px;font-weight:800;color:#0c7778}
+.welcome-experience-grid a span{font-size:14px}
+.welcome-principles{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px 8vw;align-items:center;padding:68px 10vw 62px;background:#07383b;color:#eaf4ef}
+.principles-title>.welcome-kicker{color:#8bd3c5}
+.principles-title h2{font:600 clamp(34px,4vw,47px)/1.07 Manrope;letter-spacing:-.055em;color:#f7faf7;margin:13px 0 0}
+.principles-title h2 em{font-family:Georgia,serif;font-weight:400;color:#8bd3c5}
+.principles-list{border-top:1px solid rgba(178,220,208,.25)}
+.principles-list>div{display:grid;grid-template-columns:32px minmax(0,1fr);gap:15px;padding:17px 0;border-bottom:1px solid rgba(178,220,208,.25)}
+.principles-list>div>span{font-size:9px;color:#f3a74e;font-weight:800;padding-top:2px}
+.principles-list p{margin:0}
+.principles-list b{display:block;font:700 13px Manrope;color:#f1f7f3}
+.principles-list small{display:block;margin-top:5px;font-size:10px;line-height:1.7;color:#b3cdc3}
+.principles-action{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid rgba(178,220,208,.25);padding-top:18px}
+.principles-action>span{font-size:11px;color:#b6d0c6}
+.principles-action>a{display:inline-flex;align-items:center;gap:15px;border:1px solid rgba(178,220,208,.35);border-radius:999px;padding:11px 15px;font-size:10px;font-weight:800;color:#f4faf6}
+.principles-action>a span{color:#8bd3c5;font-size:13px}
+@media(max-width:900px){
+ .welcome-experience{padding:62px 6vw 68px}
+ .welcome-experience-heading{grid-template-columns:1fr .8fr;gap:15px 25px}
+ .welcome-experience-grid{gap:11px}
+ .welcome-experience-grid article{padding:21px 18px;min-height:285px}
+ .welcome-experience-grid h3{font-size:18px}
+ .welcome-principles{padding:60px 6vw;gap:30px 5vw}
+}
+@media(max-width:620px){
+ .welcome-experience{padding:46px 5vw 52px}
+ .welcome-experience-heading{grid-template-columns:1fr;gap:12px;margin-bottom:23px}
+ .welcome-experience-heading>.welcome-kicker{grid-column:auto}
+ .welcome-experience-heading h2{font-size:36px}
+ .welcome-experience-heading>p{font-size:11px}
+ .welcome-experience-grid{grid-template-columns:1fr;gap:11px}
+ .welcome-experience-grid article{min-height:0;padding:21px}
+ .welcome-experience-grid h3{margin-top:18px;font-size:19px}
+ .welcome-experience-grid p{font-size:11px}
+ .welcome-principles{grid-template-columns:1fr;padding:49px 5vw;gap:24px}
+ .principles-title h2{font-size:37px}
+ .principles-action{grid-column:auto;align-items:flex-start;flex-direction:column}
+}
