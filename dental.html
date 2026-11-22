@@ -11,6 +11,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="dental.css?v=20261021-premium-cards">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MR8PKG0XS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0MR8PKG0XS');
+    document.addEventListener('click', function(event) {
+      var link = event.target.closest('a[href]');
+      if (!link) return;
+      var href = link.getAttribute('href') || '';
+      var eventName = '';
+      if (href.indexOf('wa.me/') !== -1 || href.indexOf('whatsapp.com/') !== -1) eventName = 'whatsapp_click';
+      else if (href.indexOf('tel:') === 0) eventName = 'phone_click';
+      else if (href.indexOf('google.com/maps') !== -1 || href.indexOf('maps.app.goo.gl') !== -1) eventName = 'directions_click';
+      if (eventName) gtag('event', eventName, {link_url: href});
+    });
+  </script>
 </head>
 <body class="dental-site">
 <header class="d-header">
