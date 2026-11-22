@@ -1029,3 +1029,17 @@
 .new-health .education-detail-body .education-fact{padding:10px 11px;border-radius:10px;background:#eef7f2;color:#526e64}
 @media(max-width:900px){.new-health .health-education-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.new-health .health-education-grid{grid-template-columns:1fr}.new-health .education-card{min-height:0}}
+
+
+/* Transparent SHREEYAN logo system — November 2026 */
+.welcome-page .welcome-brand img{object-fit:contain;background:transparent}
+.welcome-page .welcome-art-logo img{width:112px;height:112px;object-fit:contain;background:transparent}
+.welcome-page .welcome-symbol-wrap{border-radius:50%;background:#fff;border-color:#e2eae5}
+.welcome-page .welcome-symbol-wrap img{width:82px;height:82px;object-fit:contain}
+.welcome-page .welcome-about-mark{border-radius:50%;background:transparent;border:0;box-shadow:none}
+.welcome-page .welcome-about-mark img{width:50px;height:50px;object-fit:contain}
+.new-health .health-brand img{object-fit:contain;background:transparent}
+.new-health .health-abstract-mark{width:235px;height:235px;filter:drop-shadow(0 12px 18px rgba(16,60,64,.06))}
+.new-health .health-abstract-mark img{display:block;width:100%;height:100%;object-fit:contain;background:transparent}
+.new-health .health-doctor-mark{background:transparent;border:0;box-shadow:none;border-radius:0}
+.new-health .health-doctor-mark img{width:88px;height:88px;object-fit:contain}
