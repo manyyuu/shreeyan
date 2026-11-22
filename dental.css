@@ -456,3 +456,23 @@
   .d-care-marquee .d-care-group>article,
   .d-notes-marquee .d-notes-group>article{scroll-snap-align:start;transition:none}
 }
+
+
+/* SHREEYAN Dental Care education cards — all learning stays on this page */
+.d-education-grid{align-items:stretch}
+.d-education-card{display:flex;flex-direction:column;min-width:0;min-height:100%;padding:21px 22px!important}
+.d-education-card>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:10px;color:var(--teal);font-size:7px;letter-spacing:.13em;font-weight:800}
+.d-education-card>div:first-child b{color:#e99035}
+.d-education-card h3{margin:21px 0 10px!important;color:#163f40;font:700 17px/1.3 Manrope,Arial,sans-serif}
+.d-education-card>p{margin:0 0 13px;color:var(--muted);font-size:10px;line-height:1.8}
+.d-education-card .education-details{margin-top:auto;padding-top:4px}
+.d-education-card .education-details summary{display:inline-flex;align-items:center;gap:8px;cursor:pointer;list-style:none;color:#087b7f;font-size:9px;font-weight:800}
+.d-education-card .education-details summary::-webkit-details-marker{display:none}
+.d-education-card .education-details summary::after{content:"＋";display:inline-grid;place-items:center;width:20px;height:20px;border:1px solid #c6e2d6;border-radius:50%;font-size:13px;line-height:1}
+.d-education-card .education-details[open] summary::after{content:"−"}
+.d-education-card .education-detail-body{padding-top:11px}
+.d-education-card .education-detail-body p{margin:0 0 9px;color:#647b73;font-size:10px;line-height:1.8}
+.d-education-card .education-detail-body p b{color:#087b7f}
+.d-education-card .education-detail-body .education-fact{padding:10px 11px;border-radius:10px;background:#edf7f2;color:#526e64}
+@media(max-width:900px){.d-education-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.d-education-grid{grid-template-columns:1fr}.d-education-card{min-height:0!important}}
