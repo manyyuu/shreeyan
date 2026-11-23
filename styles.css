@@ -1140,3 +1140,7 @@
 
 /* Health+ physician tagline */
 .new-health .health-doctor-copy .health-doctor-tagline{font-size:10px!important;color:#0f8d90!important;font-weight:700!important;letter-spacing:.045em;margin-top:13px!important}
+
+
+/* Use the original clinic marks without extra icon tiles in the cross-clinic footer */
+.shared-location-dental .shared-location-top img{padding:0;background:transparent;border-radius:0;object-fit:contain}
