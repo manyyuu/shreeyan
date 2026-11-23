@@ -1043,3 +1043,9 @@
 .new-health .health-abstract-mark img{display:block;width:100%;height:100%;object-fit:contain;background:transparent}
 .new-health .health-doctor-mark{background:transparent;border:0;box-shadow:none;border-radius:0}
 .new-health .health-doctor-mark img{width:88px;height:88px;object-fit:contain}
+
+
+/* Original SHREEYAN Dental Care badge — integrated without a second frame */
+.welcome-page .dental-symbol-wrap{width:132px;height:132px;background:transparent;border:0;border-radius:0;box-shadow:none}
+.welcome-page .dental-symbol-wrap img{width:132px;height:132px;object-fit:contain;background:transparent}
+.welcome-page .welcome-location-dental .welcome-location-top img{width:42px;height:42px;object-fit:contain;background:transparent}

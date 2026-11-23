@@ -485,3 +485,11 @@
 .d-logo-disc{background:#f8faf6;border-color:#e5eee8;box-shadow:0 18px 48px rgba(16,60,64,.05)}
 .d-logo-disc img{width:140px;height:152px;max-width:100%;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(8,63,65,.07))}
 .d-doctor-mark img{object-fit:contain}
+
+
+/* Original SHREEYAN Dental Care circular emblem — no pixelated redraw or duplicate disc */
+.d-brand img{width:48px;height:48px;object-fit:contain;background:transparent}
+.d-logo-disc{width:260px;height:260px;border:0;border-radius:0;background:transparent;box-shadow:none}
+.d-logo-disc img{width:260px;height:260px;max-width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 10px 18px rgba(8,63,65,.08))}
+.d-doctor-mark{width:96px;height:96px;background:transparent;border:0;border-radius:0;box-shadow:none}
+.d-doctor-mark img{width:92px;height:92px;object-fit:contain;background:transparent}
