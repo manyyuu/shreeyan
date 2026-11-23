@@ -1136,3 +1136,7 @@
     margin-bottom:14px;
   }
 }
+
+
+/* Health+ physician tagline */
+.new-health .health-doctor-copy .health-doctor-tagline{font-size:10px!important;color:#0f8d90!important;font-weight:700!important;letter-spacing:.045em;margin-top:13px!important}
