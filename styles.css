@@ -1049,3 +1049,90 @@
 .welcome-page .dental-symbol-wrap{width:132px;height:132px;background:transparent;border:0;border-radius:0;box-shadow:none}
 .welcome-page .dental-symbol-wrap img{width:132px;height:132px;object-fit:contain;background:transparent}
 .welcome-page .welcome-location-dental .welcome-location-top img{width:42px;height:42px;object-fit:contain;background:transparent}
+
+
+/* Dental clinic card: restore breathing room between the emblem and copy */
+.dental-option{
+  grid-template-columns:128px minmax(0,1fr);
+  gap:28px;
+  min-height:306px;
+  padding:24px 26px;
+}
+.dental-option .dental-symbol-wrap{
+  grid-column:1;
+  width:112px;
+  height:112px;
+  margin-top:22px;
+  justify-self:center;
+  align-self:center;
+}
+.dental-option .dental-symbol-wrap img{
+  width:112px;
+  height:112px;
+  object-fit:contain;
+}
+.dental-option .welcome-card-content{
+  grid-column:2;
+  align-self:center;
+  padding:30px 8px 0 0;
+}
+.dental-option .welcome-card-content h3{
+  margin:9px 0 12px;
+  line-height:1.12;
+}
+.dental-option .welcome-card-content p{
+  margin:0 0 18px;
+  max-width:46ch;
+}
+
+@media(max-width:900px){
+  .dental-option{
+    grid-template-columns:94px minmax(0,1fr);
+    min-height:245px;
+    gap:18px;
+    padding:18px;
+  }
+  .dental-option .dental-symbol-wrap{
+    width:86px;
+    height:86px;
+    margin-top:30px;
+  }
+  .dental-option .dental-symbol-wrap img{
+    width:86px;
+    height:86px;
+  }
+  .dental-option .welcome-card-content{
+    grid-column:2;
+    padding:26px 0 0;
+  }
+}
+@media(max-width:620px){
+  .dental-option{
+    grid-template-columns:76px minmax(0,1fr);
+    gap:14px;
+    min-height:220px;
+    padding:18px;
+  }
+  .dental-option .dental-symbol-wrap{
+    width:72px;
+    height:72px;
+    margin-top:30px;
+  }
+  .dental-option .dental-symbol-wrap img{
+    width:72px;
+    height:72px;
+  }
+  .dental-option .welcome-card-content{
+    grid-column:2;
+    padding-top:25px;
+  }
+  .dental-option .welcome-card-content h3{
+    font-size:22px;
+    margin:8px 0 10px;
+  }
+  .dental-option .welcome-card-content p{
+    font-size:10px;
+    line-height:1.6;
+    margin-bottom:14px;
+  }
+}
